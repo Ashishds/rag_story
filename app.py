@@ -5,8 +5,8 @@ from utils.retrieval import load_faiss_index, retrieve_chunks
 from utils.prompt import build_prompt
 from utils.completion import generate_completion
 
-st.title("RAG App – Euron Founder Story")
-st.write("Ask questions grounded in the life and mission of Sudhanshu Kumar.")
+st.title("Frequently Asked Questions (FAQs) –HDFC Bank SmartWealth")
+st.write("What are the steps to register/sign up in the HDFC Bank SmartWealth app?")
 
 query = st.text_input("Enter your question here")
 
